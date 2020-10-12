@@ -4,15 +4,15 @@
   box-sizing: border-box;
 }
 
-#First {
+.bgn {
   background-image: url("https://www.poli-listaperta.it/wp-content/uploads/2019/09/Panorama-di-Napoli-Gettyimages.jpg");
 }
 
-#Second {
+.bga {
   background-image: url("https://cdn.civitatis.com/italia/napoles/galeria/vistas-amalfi-italia.jpg");
 }
 
-#Third {
+.bgb {
   background-image: url("https://www.touringclub.it/sites/default/files/styles/gallery_full/public/immagini_georiferite/bologna_1.jpg?itok=yZs1aNl0");
 }
 
@@ -22,6 +22,7 @@
   background-size: cover;
   text-align: center;
   position: relative;
+  margin: 10px auto;
 }
 
 .layover {
@@ -32,6 +33,7 @@
 
 .city {
   text-align: center;
+  font-family: cursive;
   color: white;
   position: absolute;
   top: 50%;
